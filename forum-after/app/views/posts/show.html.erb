@@ -1,0 +1,7 @@
+<h1>Post from <%= @post.topic.name %></h1>
+
+<div class="post">
+  <%= @post.content %>
+</div>
+
+<p><%= link_to "See full topic", @post.topic %></p>
